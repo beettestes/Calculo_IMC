@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de IMC</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="titulo">IMC</h1>
+      <p><a href="https://ruanelpidio.github.io/Projeto---Quem-sou-Eu-/">Front-End: Ruan Vitor</a></p>
+      <p><a href="https://github.com/beettestes">Back-End: Thiago Henrique</a></p>
+    </div>
+  </header>
+
+
+  <form action="controle.php" method="post" class="form">
+    <div class="container-form">
+      <label>Peso (em quilos): </label><br><input type="number" name="peso" step="any" required
+        placeholder="Ex: 60"><br><br>
+
+      <label>Altura (em metros): </label><br><input type="number" name="altura" step="any" required
+        placeholder="Ex:1.75"><br>
+
+      <label>Sexo:</label>
+      <div class="select row">
+        <input type="radio" id="M" name="sexo" value="M">
+        <label for="M">M</label>
+        <input type="radio" id="F" name="sexo" value="F">
+        <label for="F">F</label>
+      </div>
+
+      <button type="submit">Calcular</button>
+    </div>
+  </form>
+
+
+</body>
+
+</html>

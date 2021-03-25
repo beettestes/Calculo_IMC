@@ -1,0 +1,58 @@
+body {
+  background-color: #f2f3f1;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.resposta {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+}
+
+.flex > li > h3 {
+  text-align: center;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+
+  /*****/
+  background: white;
+  padding: 20px;
+  border-radius: 50px;
+  border: 2px solid #1f1f1f;
+}
+
+.flex > li p {
+  text-align: center;
+  font-family: Calibri;
+  font-weight: lighter;
+  font-size: 32px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.flex > li img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
